@@ -33,3 +33,15 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+# Notes
+
+Thanks for taking the time to look through this, I had a great time working on this project!
+
+- I took the time to style it a bit nicer
+- I chose to just add local storage since it's a simply change in the interest of time
+- I chose to use a turn counter instead of checking the whole board for a draw to save some processing
+- I'm not a fan of the states and state transfers but this was a decent first pass without researching tic-tac-toe designs
+- I put everything into the `App.js` file for simplcity but would separate them in a real app
+- I didn't clean up the starter app too much to save time
+- I think the `useEffect()` calls could be cleaner but what I have works okay
