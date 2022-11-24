@@ -2,6 +2,39 @@
   text-align: center;
 }
 
+.title {
+  font-size: 30px;
+}
+
+.game-board {
+  padding: 20px;
+}
+
+.game-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-cell {
+  user-select: none;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  margin: 1px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-cell-label {
+}
+
+.game-cell:hover {
+  background-color: #ddd;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,14 +47,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* font-size: calc(10px + 2vmin); */
+  /* color: white; */
 }
 
 .App-link {
@@ -36,3 +69,4 @@
     transform: rotate(360deg);
   }
 }
+
